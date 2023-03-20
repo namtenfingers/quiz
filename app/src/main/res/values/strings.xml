@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Trivia KING</string>
+    <string name="author_dev">Powered by Chan Xong Húp</string>
+    <string name="play">Let\'s Play</string>
+    <string name="aim_game">Try to become the KING TRIVIA</string>
+    <string name="category_name">Category Name</string>
+    <string name="category_size">134 câu hỏi</string>
+    <string name="play_now">Play!</string>
+    <string name="question_content">Hello</string>
+    <string name="current_type">Geography</string>
+    <string name="current_question">1/10</string>
+    <string name="current_ans_a">Epicurus</string>
+    <string name="current_ans_b">Jean-Paul Sartre</string>
+    <string name="current_ans_c">Niccolo Machiavelli</string>
+    <string name="current_ans_d">Bertrand Russell</string>
+    <string name="difficulty">Hard</string>
+    <string name="time">30</string>
+    <string name="game_over">Game Over</string>
+    <string name="question_answered">Answered: 7/10</string>
+    <string name="back_detail_activity">Back</string>
+    <string name="well_done">WELL DONE</string>
+    <string name="call_support">Call Support</string>
+    <string name="show_caller_answer">Caller Answer</string>
+    <string name="bot_support">Super Bot</string>
+    <string name="percent_a">0%</string>
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="c">C</string>
+    <string name="d">D</string>
+    <string name="user_name">Tài khoản</string>
+    <string name="check_account">Bạn chưa có tài khoản?</string>
+    <string name="sign_up_now">Đăng ký ngay!</string>
+    <string name="log_in">Đăng Nhập</string>
+</resources>

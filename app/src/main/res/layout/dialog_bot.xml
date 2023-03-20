@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/black_60">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginHorizontal="25dp"
+        app:cardCornerRadius="30dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_call_sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:text="@string/bot_support"
+                android:textColor="@color/orange"
+                android:textSize="48sp"
+                android:fontFamily="@font/fat_font_1"
+                android:layout_marginTop="16dp"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="65dp"
+                android:layout_marginStart="8dp"
+                android:gravity="center_horizontal"
+                android:id="@+id/layout_answerA">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:text="@string/percent_a"
+                    android:id="@+id/tvPercentA"
+                    android:layout_centerHorizontal="true"/>
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/red"
+                    android:id="@+id/tvA"
+                    android:layout_below="@id/tvPercentA"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvA"
+                    android:text="@string/a"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="8dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toEndOf="@id/layout_answerA"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="65dp"
+                android:layout_marginStart="16dp"
+                android:gravity="center_horizontal"
+                android:id="@+id/layout_answerB">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:text="@string/percent_a"
+                    android:id="@+id/tvPercentB"
+                    android:layout_centerHorizontal="true"/>
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/teal_200"
+                    android:id="@+id/tvB"
+                    android:layout_below="@id/tvPercentB"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvB"
+                    android:text="@string/b"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="8dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toEndOf="@id/layout_answerB"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="65dp"
+                android:layout_marginStart="16dp"
+                android:gravity="center_horizontal"
+                android:id="@+id/layout_answerC">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:text="@string/percent_a"
+                    android:id="@+id/tvPercentC"
+                    android:layout_centerHorizontal="true"/>
+
+                <TextView
+                    android:id="@+id/tvC"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvPercentC"
+                    android:background="@color/yellow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvC"
+                    android:text="@string/c"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="8dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toEndOf="@id/layout_answerC"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="65dp"
+                android:layout_marginStart="16dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:text="@string/percent_a"
+                    android:id="@+id/tvPercentD"
+                    android:layout_centerHorizontal="true"/>
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/green"
+                    android:id="@+id/tvD"
+                    android:layout_below="@id/tvPercentD"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvD"
+                    android:text="@string/d"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="8dp"/>
+
+            </RelativeLayout>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginBottom="24dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:cardCornerRadius="25dp"
+                android:layout_marginTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:background="@color/ocean_70">
+
+                    <TextView
+                        android:id="@+id/tv_back"
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/back_detail_activity"
+                        android:gravity="center"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/fat_font_1"/>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
